@@ -98,7 +98,7 @@ for form in forms:
             break
 
 if __name__ == "__main__":
-    with open("/home/dat/SQL Injection/python.txt", "r") as file:
+    with open("python.txt", "r") as file:
         payloads = file.readlines()
 
     base_url = "http://testphp.vulnweb.com/artists.php?artist=1"

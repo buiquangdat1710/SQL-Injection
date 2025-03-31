@@ -1,0 +1,5 @@
+name
+username
+email
+password
+pass

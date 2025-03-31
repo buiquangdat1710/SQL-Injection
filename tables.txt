@@ -1,0 +1,7 @@
+users
+user
+admin
+product
+products
+category
+categories
